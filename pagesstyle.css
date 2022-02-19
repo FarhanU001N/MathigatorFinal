@@ -3,6 +3,10 @@ h1{
   font-family: sans-serif;
   font-size:32px
 }
+p{
+  color:ghostwhite;
+  font-family:monospace;
+  text-align:left;}
 .solver{
   background-image: url("https://img.search.brave.com/ukjPmTBEIDmgm6NCAJG8Gt8X2T_ugfem0o_wwa4t_1M/rs:fit:852:480:1/g:ce/aHR0cDovL2FrNi5w/aWNkbi5uZXQvc2h1/dHRlcnN0b2NrL3Zp/ZGVvcy80NDE0Mzc5/L3RodW1iLzEuanBn/P2kxMGM9aW1nLnJl/c2l6ZShoZWlnaHQ6/MTYwKQ");
   background-size: cover;
