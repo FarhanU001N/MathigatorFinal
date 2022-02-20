@@ -53,7 +53,7 @@ status=str(2)
 if status=='2':
     def secondary_menu():
         '''(none) -> (None)
-        Acts as the menu for the high school quadratic equation solver. It will
+        Acts as the menu for quadratic equation solver. It will
         ask for the coefficients of a, b, and c and then will call the
         high_school_eqsolver(a,b,c) function to compute the results'''
         a = 0
