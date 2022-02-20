@@ -6,8 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
+  <!-- Sets the stylesheet for this page to pagesstyle.css-->
   <link rel="stylesheet" type="text/css" href="pagesstyle.css">
+  
+  <!-- Puts the links into a container so we that we can format them in pagesstyle.css-->
   <nav id="container">
+   <!-- creates a list to put our links to each page-->
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="quad.html">Quadratic Equation Calculator</a></li>
@@ -15,19 +19,21 @@
     </ul>
   </nav>
 </head>
-
+<!-- Makes the colour of the links white-->
 <body a link = "white" vlink = "white">
+  <!-- Puts our quizzes and their titles into a container to format them to be on the centre of the page -->
   <div class="solver" id="container">
+  <!-- We start each quiz withtheir title and what they do using the headers -->
   <h1>Primary School Quiz</h1>
   
   <p>Play our fun maths quiz aimed at primary school students. Each correct answer gives you 3 points and every 30 points you get to play a fun minigame!In the minigame use the mouse pointer to guide the cat to the apple!</p>
-  
+  <!-- We use iframe to embed the first quiz into out page-->
   <iframe src="https://scratch.mit.edu/projects/647345084/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
   <h1>Secondary School Quiz</h1>
     
   <p>Play our fun prime number quiz aimed at secondary school students. Each correct answer gives you 3 points and every 30 points you get to play a fun minigame!In the minigame use the mouse pointer to guide the cat to the banana! But beware, if you get an answer wrong your points reset!</p>
-
+  <!-- We use iframe to embed our second quiz into the page-->
   <iframe src="https://scratch.mit.edu/projects/647354428/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
   </div>
 </body>
