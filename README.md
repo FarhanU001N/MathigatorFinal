@@ -1,6 +1,6 @@
 #CodeSec-challenge
 Presenting our work, the mathigator. If you wish to run the code:
-Open all files except quadratic equationsolver.py, README.md and Maths Quiz.sb3.
+Open all files except quadratic equationsolver.py, README.md, quiz.sb3 and Maths Quiz.sb3.
 Configure the run button to run index.html using the html/js/css option in replit
 
 The website can also be accesed via the link: https://codesec-challenge-1.farhanu001n.repl.co/
