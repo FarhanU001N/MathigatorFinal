@@ -5,27 +5,32 @@ body {
 	width: 100%;
   background-color:#3b3b3b
 }
+/*Formats all the text in webpage */
 h1 {
   color:white;
   font-family: sans-serif;
   font-size:32px
   
    }
+/*Formats the text and colour of "Mathigator"*/ 
 h2 {
   color:ghostwhite;
   font-family: monospace;
   font-size:22px
   
    }
+/*Formats the text and colour of "Needs Guidance..."*/
 h3{
   color:ghostwhite;
   font-family:monospace;
   font-size:15px;
   text-align:left;}
+/*Formats where the text is placed and colour of the text "About Mathigator.."*/
 ul{
   color:ghostwhite;
   text-align:left;
 }
+/*Formats where text is placed and colour of the text "Mathigator is an..."*/
 .page {
   background-image: url("https://wallpaperaccess.com/full/237630.jpg");
   background-size: cover;
@@ -33,12 +38,7 @@ ul{
   padding: 100px 0;
 	margin: 1px;
 }
-
-.maths {
-  width:500px;
-  margin: 150px;
-  background-color:#ffffff
-}
+/*Fomats the size of the background images and opacity*/
 
 nav ul {
     background-color: rgb(0,100,200);
@@ -49,19 +49,20 @@ nav ul {
     padding: 10px;
     border-radius: 10px;
   }
+/*Formats the size of of box of the links where it has solid background and outline of box*/
 
 a:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-
+/*Changes the colour of the link*/
 a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-
+/*Changes the colour of the link if the you visted that link already*/
 .links {
     background-color: rgb(0,100,200);
     border-style: solid;
@@ -71,6 +72,7 @@ a:visited {
     padding: 10px;
     border-radius: 10px;
 }
+/*Buttom links have box ,which has a black outline */
 
 
 
