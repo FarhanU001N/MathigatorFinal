@@ -6,4 +6,4 @@ Configure the run button to run index.html using the html/js/css option in repli
 The website can also be accesed via the link: https://codesec-challenge-1.farhanu001n.repl.co/
 
 The code for the python file embedded into quad.html is found in quadratic equationsolver.py 
-The code for the scratch file that is embedded into quiz1.html is found in Maths Quiz.sb3
+The code for the scratch files that are embedded into quiz.html is found in Maths Quiz.sb3 Prime number quiz.sb3
