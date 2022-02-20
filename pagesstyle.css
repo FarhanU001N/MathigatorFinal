@@ -1,29 +1,31 @@
+/*this css file is connected to the quad.html and quiz.html file*/
+
 h1{
   color:ghostwhite;
   font-family: monospace;
   font-size:32px
-}
+}/*this changes all of the h1 tags in the connected pages to white monospace font and 32px large*/
 
 p{
   color:ghostwhite;
   font-family:monospace;
   text-align:left;
-}
+}/*this changes all of the p tags in the connected pages to white monospace font and aligns it left*/
 
 .solver{
   background-image: url("https://img.search.brave.com/ukjPmTBEIDmgm6NCAJG8Gt8X2T_ugfem0o_wwa4t_1M/rs:fit:852:480:1/g:ce/aHR0cDovL2FrNi5w/aWNkbi5uZXQvc2h1/dHRlcnN0b2NrL3Zp/ZGVvcy80NDE0Mzc5/L3RodW1iLzEuanBn/P2kxMGM9aW1nLnJl/c2l6ZShoZWlnaHQ6/MTYwKQ");
   background-size: cover;
   opacity: 1;
-	margin: 1px;
-}
+  margin: 1px;
+} /*this adds a background image for the body of the code with margin 1px. It has opacity 1 so it is not transparent at all.*/
 
 body{
   height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+  margin: 0;
+  text-align: center;
+  width: 100%;
   background-color:#3b3b3b
-}
+} /*this centre aligns everything in the body of the files*/
 
 nav ul {
     background-color: rgb(0,100,200);
@@ -35,17 +37,16 @@ nav ul {
     padding: 10px;
     border-radius: 10px;
     font-family: monospace;
-  }
-
+  } /*This creates a box around the navigator in the header of the files so that it looks more appealing.*/
 
 #container {
 	width: 80%;
 	margin: auto;
 	padding: 2%;
-}
+} /*this changes everything with a container id to have a 80% width and padding of 2%*/
 
 @media screen and (max-width: 768px) {
 	#container {
 		width: 90%;	
 	}
-}
+}/*this adds some responsive design so the width of the container changes to 90% instead of 80% after the screen is smaller than 768px*/
